@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Instruction">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instruction"
+        android:textColor="#E479F6"
+        android:textSize="80dp"
+        android:background="#ECB1B1"
+        android:id="@+id/tvInstriction"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click the Setting button and choose the color you want for the game. After you have made your choice and returned to the home screen, click the Start Game button and start playing. Solve the exercises and receive points."
+        android:textSize="40dp"
+        android:id="@+id/tvGame"></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnfinish"></Button>
+
+</LinearLayout>

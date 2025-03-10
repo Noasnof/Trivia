@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onStartGame(View view) {
         Intent intent=new Intent(this, GameActivity.class);
+        intent.putExtra("color2",this.backgroundColor);
         startActivity(intent);
     }
 
@@ -63,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onInstruction(View view) {
+        Intent i2=new Intent(this, Instruction.class);
+        startActivity(i2);
     }
 
 
